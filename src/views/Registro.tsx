@@ -51,7 +51,7 @@ export default function Registro() {
     </div> 
     ) : 
     (
-        <RegistroExitoso />
+        <RegistroExitoso titulo="¡Te has registrado con Exito!" mensaje="Numero de Registro" detalle="123456"  />
     ) 
 
     }
