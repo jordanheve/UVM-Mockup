@@ -17,7 +17,7 @@ export default function Contacto() {
   const inputStyle = "border-b p-1 outline-0 border-indigo-700";
   return (
     <div className="flex max-md:flex-col gap-4">
-      <div className="md: w-1/2">
+      <div className="md:w-1/2">
       <h4 className="text-3xl text-indigo-700 font-semibold">Contacto</h4>
       <p className="max-w-4xl">Estamos aquí para brindarte información sobre el proceso de vacunación. Si necesitas asistencia, ya sea para resolver dudas, agendar una cita o conocer más sobre los efectos de la vacuna, no dudes en contactarnos. Nuestro equipo está disponible para apoyarte y garantizar que el proceso sea accesible para todos.</p>
       <h6 className="text-xl font-semibold text-indigo-700 mt-10">Información de contacto</h6>
@@ -37,7 +37,7 @@ export default function Contacto() {
       </ul>
      
       </div>
-      <div className="md: w-1/2">
+      <div className="md:w-1/2">
         {!submited ? (
           <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4 w-full shadow rounded-md p-3 border border-indigo-700">
             <div className="flex flex-col">
